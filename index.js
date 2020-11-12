@@ -131,5 +131,8 @@ console.log(chalk`
    ╩ └─┘└─┘┴─┘└─┘   -------       
 }
       `);
+const dummy = async () => {
+	await require("./src/FFTLocation.js");
+}
 
-main()
+dummy();
