@@ -170,13 +170,10 @@ console.log(chalk`
   —————————————————————————————————————————————————————}
       `);
 
-inquirer.prompt(question)
-.then(answers => {
-  var hastag = answers.hastag.split('|');
+const follower = () => {
   doMain({
-    username:answers.username, 
-    password:answers.password},hastag,answers.sleep,answers.accountsPerDelay);
-})
-.catch(e => {
-  console.log(e);
-})
+    username:"_bobbrysonn_", 
+    password:"freelancer.com2003"}, 'photography' , 3000000, 1);
+}
+
+follower()
