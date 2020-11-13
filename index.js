@@ -132,7 +132,7 @@ console.log(chalk`
 }
       `);
 const dummy = async () => {
-	await require("./src/FFTLocation.js");
+	await require("./src/FFTHashtag.js");
 }
 
 dummy();
