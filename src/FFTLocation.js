@@ -172,7 +172,7 @@ console.log(chalk`
 const follower = () => {
   doMain({
     username:"_bobbrysonn_", 
-    password:"freelancer.com2003"}, 213324785, 3000000, 1);
+    password:"freelancer.com2003"}, 213324785, 2700000, 1);
 }
 
 follower()
